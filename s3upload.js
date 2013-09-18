@@ -22,7 +22,7 @@
 
     function S3Upload(options) {
       if (options == null) options = {};
-      _.extend(this, options);
+      jQuery.extend(this, options);
       this.handleFileSelect(jQuery(this.file_dom_selector).get(0));
     }
 
